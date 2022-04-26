@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         Append nocache[rand] to Varesenews URL
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      2.0
 // @description
 // @author       Alessandro Stoppato
-// @match        https://sandbox.varesenews.it/*
-// @exclude      https://sandbox.varesenews.it/wp-admin/*
+// @match        https://*.varesenews.it/*
+// @exclude      https://*.varesenews.it/wp-admin/*
+// @exclude      https://*.varesenews.it/menabo/*
+// @exclude      https://*.varesenews.it/photogallery_new/*
 // @icon         https://www.google.com/s2/favicons?domain=varesenews.it
 // @grant        none
 // @noframes

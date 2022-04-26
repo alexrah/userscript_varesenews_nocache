@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Append nocache[rand] to Varesenews URL
 // @namespace    http://tampermonkey.net/
-// @version      3.6
+// @version      3.7
 // @description
 // @author       Alessandro Stoppato
 // @match        https://*.varesenews.it/*
@@ -12,8 +12,8 @@
 // @grant        none
 // @noframes
 // @run-at document-start
-// @downloadURL
-// @updateURL https://raw.githubusercontent.com/alexrah/userscript_corriere_paywall_remover/master/main.js
+// @downloadURL https://raw.githubusercontent.com/alexrah/userscript_varesenews_nocache/master/main.js
+// @updateURL https://raw.githubusercontent.com/alexrah/userscript_varesenews_nocache/master/main.js
 // ==/UserScript==
 
 (function() {

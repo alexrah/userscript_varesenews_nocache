@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Append nocache[rand] to Varesenews URL
 // @namespace    http://tampermonkey.net/
-// @version      2.0
+// @version      3.6
 // @description
 // @author       Alessandro Stoppato
 // @match        https://*.varesenews.it/*
@@ -19,9 +19,18 @@
 (function() {
     'use strict';
 
+    if( (performance.navigation.type !== performance.navigation.TYPE_RELOAD) ) return;
+ 
+    console.log('%cUserScript','color: orange',window.location.href);
+
+    window.stop();
+
     const origLocation = window.location.href
     if( origLocation.match(/nocache/) === null ){
       window.location.href = origLocation + "?nocache" + Math.round(Math.random()*1000);
-    } 
+    } else {
+       window.location.href = origLocation.replace(/[0-9]+$/,Math.round(Math.random()*1000));
+    }
+
 
 })();

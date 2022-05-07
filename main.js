@@ -1,13 +1,34 @@
 // ==UserScript==
 // @name         Append nocache[rand] to Varesenews URL
 // @namespace    http://tampermonkey.net/
-// @version      3.7
+// @version      3.9
 // @description
 // @author       Alessandro Stoppato
 // @match        https://*.varesenews.it/*
 // @exclude      https://*.varesenews.it/wp-admin/*
 // @exclude      https://*.varesenews.it/menabo/*
 // @exclude      https://*.varesenews.it/photogallery_new/*
+//
+// @match        https://*.malpensanews.it/*
+// @exclude      https://*.malpensanews.it/wp-admin/*
+// @exclude      https://*.malpensanews.it/menabo/*
+// @exclude      https://*.malpensanews.it/photogallery_new/*
+//
+// @match        https://*.saronnonews.it/*
+// @exclude      https://*.saronnonews.it/wp-admin/*
+// @exclude      https://*.saronnonews.it/menabo/*
+// @exclude      https://*.saronnonews.it/photogallery_new/*
+//
+// @match        https://*.verbanonews.it/*
+// @exclude      https://*.verbanonews.it/wp-admin/*
+// @exclude      https://*.verbanonews.it/menabo/*
+// @exclude      https://*.verbanonews.it/photogallery_new/*
+//
+// @match        https://*.legnanonews.com/*
+// @exclude      https://*.legnanonews.com/wp-admin/*
+// @exclude      https://*.legnanonews.com/menabo/*
+// @exclude      https://*.legnanonews.com/photogallery_new/*
+//
 // @icon         https://www.google.com/s2/favicons?domain=varesenews.it
 // @grant        none
 // @noframes

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Append nocache=[rand] to Varesenews URL
 // @namespace    http://tampermonkey.net/
-// @version      4.1
+// @version      4.2
 // @description
 // @author       Alessandro Stoppato
 // @match        https://*.varesenews.it/*
@@ -10,6 +10,7 @@
 // @exclude      https://*.varesenews.it/photogallery_new/*
 // @exclude      https://elezioni2022.varesenews.it/*
 // @exclude      https://elezioni2018.varesenews.it/*
+// @exclude      https://elezioni2023.varesenews.it/*
 //
 // @match        https://*.malpensanews.it/*
 // @exclude      https://*.malpensanews.it/wp-admin/*
